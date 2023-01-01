@@ -47,7 +47,7 @@ const ItemListContainer = () => {
                             </div>
                             <div className="details col-md-6">
                                 <h3 className="product-title">{product.name}</h3>
-                                <p className="product-description">Descripción: </p>
+                                <p className="product-description">Descripción: {product.description}</p>
                                 <h4 className="price">Precio: <span>${product.price}</span></h4>
                                 <div className="action">
                                     {
