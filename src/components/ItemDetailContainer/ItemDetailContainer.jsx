@@ -26,7 +26,6 @@ const ItemListContainer = () => {
     }, [])
 
     const buyingProduct = (quantityToBuy) => {
-        console.log("Cantidad de articulos agregados al carrito:", quantityToBuy)
         addToCart({... product, quantityToBuy})
         setNewAction(true)
     }
